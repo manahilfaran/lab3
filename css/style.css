@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #fdf6f0, #f3e7ff);
+    color: #3a2e39;
+    line-height: 1.6;
+}
+
+header {
+    background: #4b2e5a;
+    color: #fff;
+    padding: 25px 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2em;
+}
+
+header p {
+    font-size: 1.05em;
+    margin-top: 8px;
+    color: #e6d9f0;
+}
+
+/* Navigation */
+
+nav {
+    background: #6e4b81;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 22px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    background: #4b2e5a;
+}
+
+/* Main container */
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #4b2e5a;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #6e4b81;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+
+/* Home Page */
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #6e4b81;
+    display: block;
+    margin: 0 auto 25px auto;
+    object-fit: cover;
+    background: #e6d9f0;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.highlights {
+    overflow: auto;
+    margin-top: 30px;
+}
+
+.highlight-box {
+    background: #f3e7ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    margin: 1.5%;
+    text-align: center;
+    float: left;
+}
+
+.highlight-box h3 {
+    color: #6e4b81;
+    margin-bottom: 8px;
+}
+
+.highlight-box a {
+    color: #4b2e5a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.highlight-box a:hover {
+    text-decoration: underline;
+}
+
+/* Hobbies */
+
+.hobby-grid {
+    overflow: auto;
+}
+
+.hobby-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+}
+
+.hobby-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.hobby-card h3 {
+    color: #6e4b81;
+    margin: 14px 0 6px 0;
+}
+
+.hobby-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Gallery */
+
+.gallery-grid {
+    overflow: auto;
+}
+
+.gallery-item {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 12px;
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #4b2e5a;
+}
+
+/* Clear Float */
+
+.clear {
+    clear: both;
+}
+
+/* Skills */
+
+.section-title {
+    color: #6e4b81;
+    font-size: 1.3em;
+    margin: 30px 0 15px 0;
+    border-bottom: 2px solid #6e4b81;
+    padding-bottom: 6px;
+}
+
+.skill-row {
+    margin-bottom: 18px;
+}
+
+.skill-name {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.skill-bar-bg {
+    background: #e6d9f0;
+    border-radius: 20px;
+    height: 16px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.skill-bar-fill {
+    background: linear-gradient(90deg, #6e4b81, #a879c9);
+    height: 100%;
+    border-radius: 20px;
+}
+
+.skill-85 {
+    width: 85%;
+}
+
+.skill-90 {
+    width: 90%;
+}
+
+.skill-80 {
+    width: 80%;
+}
+
+.tool-tags {
+    overflow: auto;
+}
+
+.tag {
+    background: #4b2e5a;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    float: left;
+    margin: 5px;
+}
+
+/* Contact */
+
+.contact-info {
+    margin: 25px 0;
+}
+
+.contact-row {
+    padding: 14px 18px;
+    background: #f3e7ff;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    overflow: auto;
+}
+
+.contact-icon {
+    font-size: 1.4em;
+    float: left;
+    margin-right: 14px;
+}
+
+.contact-row a {
+    color: #4b2e5a;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-row a:hover {
+    text-decoration: underline;
+}
+
+.label {
+    display: block;
+    font-size: 0.8em;
+    color: #6e4b81;
+}
